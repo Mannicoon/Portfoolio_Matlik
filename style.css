@@ -51,7 +51,7 @@ nav a{
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .nav-leftbtn{
@@ -74,8 +74,37 @@ nav a h4{
     display: flex;
     flex-wrap: wrap;
     justify-content: center ;
-    margin-bottom: 90px;
+    margin-bottom: 110px;
 }
+
+.spacer{
+    display: none;
+    margin-top: 110px;
+}
+
+.title{
+    margin-top: 15px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+/* Parametres */
+
+.txt-white{
+    color: white;
+}
+
+.txt-dark{
+    color: rgb(196, 196, 196);
+}
+
+/* Projects */
+#Site-Projects{
+    width: 100%;
+    height: fit-content;
+    background-color: #2b4ce2;
+}
+
 
 
 /* Card */
@@ -86,6 +115,9 @@ nav a h4{
     margin: 20px;
     display: flex;
     transition: 0.3s;
+    background-color: #0f1a49;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .card-reverse{
@@ -96,6 +128,9 @@ nav a h4{
     flex-direction: row-reverse;
     text-align: right;
     transition: 0.3s;
+    background-color: #0f1a49;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .marker{
@@ -104,10 +139,40 @@ nav a h4{
     background-color: #2b4ce2;
 }
 
+.card-dark{
+    width: auto;
+    height: fit-content;
+    margin: 20px;
+    display: flex;
+    transition: 0.3s;
+    background-color: rgb(64, 64, 64);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-reverse-dark{
+    width: auto;
+    height: fit-content;
+    margin: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    transition: 0.3s;
+    background-color: rgb(64, 64, 64);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.marker-dark{
+    height:auto;
+    width: 10px;
+    background-color: rgb(24, 24, 24);
+}
+
 .card-content{
     width: 100%;
     height: 100%;
-    background-color: #0f1a49;
+    
 }
 
 .card-content div{
@@ -122,15 +187,20 @@ nav a h4{
     }
 
     .Content{
-        margin-bottom: 0px;
+        flex-direction: row;
     }
+
+    .spacer{
+        display: block;
+    }
+
+}
+
+@media(min-width: 1000px){
+
 
     nav a:hover{
-        background-color: #002fff;
-    }
-
-    .Content{
-        flex-direction: row;
+        background-color: rgb(64, 64, 64);
     }
 
     nav{
@@ -139,16 +209,21 @@ nav a h4{
         margin-top: 30px;
     }
 
-}
+    .Content{
+        margin-bottom: 0px;
+    }
 
-@media(min-width: 1000px){
-
-    .card{
+    .title{
         margin-left: 200px;
         margin-right: 200px;
     }
 
-    .card-reverse{
+    .card, .card-dark{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .card-reverse, .card-reverse-dark{
         margin-left: 200px;
         margin-right: 200px;
     }
