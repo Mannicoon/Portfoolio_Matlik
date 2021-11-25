@@ -96,13 +96,17 @@ nav a h4{
 }
 
 /* Card */
+
+.blue{
+    background-color: #0f1a49;
+}
+
 .card{
     width: auto;
     height: fit-content;
     margin: 20px;
     display: flex;
     transition: 0.3s;
-    background-color: #0f1a49;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
