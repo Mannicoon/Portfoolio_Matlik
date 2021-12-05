@@ -85,6 +85,21 @@ nav a{
     border-radius: 15px;
 }
 
+.ViewBTN{
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.ViewBTN:hover{
+    color: white;
+    text-decoration: solid;
+}
+
+.ViewBTN h4{
+    margin: 20px;
+}
+
 .nav-leftbtn{
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
@@ -106,6 +121,25 @@ nav a h4{
     flex-wrap: wrap;
     justify-content: center ;
     margin-bottom: 110px;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+}
+
+.item_pic{
+    height: 300px;
+    width: 600px;
+}
+
+.page{
+    opacity: 30%;
+    transition: 0.3s;
+}
+
+.page:hover{
+    opacity: 100%;
 }
 
 .spacer{
@@ -133,7 +167,12 @@ nav a h4{
 #Site-Projects{
     width: 100%;
     height: fit-content;
+    
+}
+
+.blue{
     background-color: #2b4ce2;
+    width: 100%;
 }
 
 
