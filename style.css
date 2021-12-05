@@ -28,6 +28,26 @@ header{
     justify-content: center;
 }
 
+.MainNav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: 200px;
+}
+
+.MainNav a{
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+}
+
+.MainNav a h4{
+    margin-top: 11px;
+    color: white;
+}
+
 nav{
     position: fixed;
     bottom: 0;
@@ -52,6 +72,17 @@ nav a{
     justify-content: center;
     text-decoration: none;
     transition: 0.2s;
+}
+
+.pdf{
+    display: flex;
+    justify-content: center;
+}
+
+.pdf embed{
+    width: 100%;
+    height: 700px;
+    border-radius: 15px;
 }
 
 .nav-leftbtn{
