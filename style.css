@@ -86,14 +86,9 @@ nav a{
 }
 
 .ViewBTN{
-    color: rgb(104, 104, 104);
+    color: rgb(196, 196, 196);
     text-decoration: none;
     transition: 0.2s;
-}
-
-.ViewBTN:hover{
-    color: white;
-    text-decoration: solid;
 }
 
 .ViewBTN h4{
@@ -129,17 +124,13 @@ nav a h4{
 }
 
 .item_pic{
-    height: 300px;
-    width: 600px;
+    height: 150px;
+    width: 300px;
 }
 
 .page{
-    opacity: 30%;
-    transition: 0.3s;
-}
-
-.page:hover{
     opacity: 100%;
+    transition: 0.3s;
 }
 
 .spacer{
@@ -296,6 +287,25 @@ nav a h4{
     .card-reverse, .card-reverse-dark{
         margin-left: 200px;
         margin-right: 200px;
+    }
+
+    .ViewBTN{
+        color: rgb(104, 104, 104);
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    
+    .ViewBTN:hover{
+        color: rgb(196, 196, 196);
+    }
+
+    .page{
+        opacity: 30%;
+        transition: 0.3s;
+    }
+    
+    .page:hover{
+        opacity: 100%;
     }
 
 }
