@@ -123,9 +123,13 @@ nav a h4{
     height: 32px;
 }
 
+.picParent{
+    height: 220px;
+}
+
 .item_pic{
-    height: 150px;
-    width: 300px;
+    height: 100%;
+    width: auto;
 }
 
 .page{
@@ -164,6 +168,10 @@ nav a h4{
 .blue{
     background-color: #2b4ce2;
     width: 100%;
+}
+
+.projectsTxt{
+    color: rgb(104, 104, 104);
 }
 
 
